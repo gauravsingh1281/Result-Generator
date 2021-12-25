@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Generator</title>
+    <style>
+        html {
+            display: inline;
+            margin: 0px;
+        }
+
+        body {
+            display: inline;
+            margin: 0px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #0000ff;
+        }
+
+        #lim {
+            margin-left: 21px;
+            font-size: 11px;
+        }
+
+        #h5 {
+            font-size: 16px;
+            text-align: right;
+            margin-right: 19px;
+            margin-top: 14px;
+        }
+
+        #r {
+            margin-left: 259px;
+        }
+
+        #csk {
+            background-color: #E5E1FF;
+        }
+
+        #lower {
+            background-color: #C7efff;
+        }
+
+        #kkr {
+            border-color: black;
+        }
+
+        #btn {
+            background-color: blue;
+            color: white;
+        }
+
+        .groove {
+            border-style: groove;
+        }
+
+        #cb1 {
+            width: 69px;
+            height: 71px;
+        }
+
+        #cb2 {
+            width: 370px;
+            height: 27px;
+            margin-bottom: -13px;
+            margin-left: 5px;
+        }
+
+        #cb3 {
+            width: 240px;
+            height: 27px;
+            margin-left: -2px;
+            margin-top: 14px;
+        }
+
+        @media(max-width:700px) and (min-width:633px) {
+            #cb1 {
+                width: 69px;
+                height: 71px;
+            }
+
+            #cb2 {
+                width: 370px;
+                height: 27px;
+                margin-bottom: -13px;
+                margin-left: 5px;
+            }
+
+            #cb3 {
+                width: 240px;
+                height: 27px;
+                margin-left: -2px;
+                margin-top: 14px;
+            }
+           
+           
+
+
+        }
+
+        #container {
+            background-color: #00cfd2;
+            height: 82px;
+            width: auto;
+
+        }
+
+        #exs {
+            margin-right: 10px;
+            font-size: 18px;
+            text-align: right;
+            color: #373abe;
+
+        }
+
+        @media(max-width:353px) and (min-width:319px) {
+            #exs {
+                font-size: 12px;
+                text-align: right;
+                color: #373abe;
+                margin-right: -124px;
+                margin-top: 7px;
+            }
+
+            #cb1 {
+                width: 69px;
+                height: 71px;
+            }
+
+            #cb2 {
+                width: 370px;
+                height: 27px;
+                margin-bottom: -13px;
+                margin-left: 5px;
+            }
+
+            #cb3 {
+                width: 240px;
+                height: 27px;
+                margin-left: -2px;
+                margin-top: 14px;
+            }
+
+            #container {
+                background-color: #00cfd2;
+                height: 76px;
+                width: 459px;
+            }
+
+            #h5 {
+                font-size: 10px;
+                text-align: right;
+                margin-right: -134px;
+                margin-top: -16px;
+            }
+
+            #bing {
+                margin-left: 107px;
+                font-size: 12px;
+            }
+
+            #cing {
+                width: 125%;
+                margin-left: 37px;
+                font-size: 12px;
+            }
+
+            #r {
+                margin-left: 33px;
+                font-size: 11px;
+            }
+
+            #kkr {
+                margin-right: -126px;
+                font-size: 9px;
+                border-color: black;
+            }
+
+            h2 {
+                margin-left: 100px;
+                text-align: center;
+                color: #0000ff;
+                font-size: 14px;
+            }
+
+            #wun {
+                font-size: 13px;
+                margin-left: 0px;
+                width: 129%;
+                text-align: center;
+            }
+
+
+            #gun {
+                width: 144%;
+                font-size: 10px;
+                margin-left: 3px;
+            }
+
+            #sun {
+                padding: 3px;
+                width: 142%;
+                margin: auto;
+                font-size: 11px;
+                text-align: justify;
+            }
+
+            #cb3 {
+                width: 200px;
+                height: 25px;
+                margin-left: -2px;
+                margin-top: 1px;
+            }
+
+            #cb2 {
+                width: 307px;
+                height: 23px;
+                margin-bottom: -9px;
+                margin-left: 5px;
+            }
+
+            #lower {
+                padding: 2px;
+                font-size: 9px;
+                background-color: #C7efff;
+                padding-left: 48px;
+                padding-right: 20px;
+                width: 121%;
+            }
+          
+
+
+        }
+        @media(max-width:426px) and (min-width:375px) {
+            #exs {
+                font-size: 12px;
+                text-align: right;
+                color: #373abe;
+                margin-right: -155px;
+                margin-top: 7px;
+            }
+
+            #cb1 {
+                width: 69px;
+                height: 71px;
+            }
+
+            #cb2 {
+                width: 370px;
+                height: 27px;
+                margin-bottom: -13px;
+                margin-left: 5px;
+            }
+
+            #cb3 {
+                width: 240px;
+                height: 27px;
+                margin-left: -2px;
+                margin-top: 14px;
+            }
+
+            #container {
+                background-color: #00cfd2;
+                height: 76px;
+                width: 545px;
+            }
+
+            #h5 {
+                font-size: 10px;
+                text-align: right;
+                margin-right: -163px;
+                margin-top: -16px;
+            }
+
+            #bing {
+                margin-left: 136px;
+                font-size: 12px;
+            }
+
+            #cing {
+                width: 125%;
+                margin-left: 37px;
+                font-size: 12px;
+            }
+
+            #r {
+                margin-left: 46px;
+                font-size: 13px;
+            }
+
+            #kkr {
+                margin-right: -126px;
+                font-size: 9px;
+                border-color: black;
+            }
+
+            h2 {
+                margin-left: 134px;
+                text-align: center;
+                color: #0000ff;
+                font-size: 14px;
+            }
+
+            #wun {
+                font-size: 13px;
+                margin-left: 6px;
+                width: 129%;
+                text-align: center;
+            }
+
+
+            #gun {
+                width: 144%;
+                font-size: 10px;
+                margin-left: 3px;
+            }
+
+            #sun {
+                padding: 3px;
+                width: 142%;
+                margin: auto;
+                font-size: 11px;
+                text-align: justify;
+            }
+
+            #cb3 {
+                width: 200px;
+                height: 25px;
+                margin-left: -2px;
+                margin-top: 1px;
+            }
+
+            #cb2 {
+                width: 307px;
+                height: 23px;
+                margin-bottom: -9px;
+                margin-left: 5px;
+            }
+
+            #lower {
+                padding: 3px;
+                font-size: 11px;
+                background-color: #C7efff;
+                padding-left: 48px;
+                padding-right: 20px;
+                width: 125%;
+            }
+          
+
+
+        }
+         @media(max-width:767px) and (min-width:424px) {
+            #exs {
+                font-size: 12px;
+                text-align: right;
+                color: #373abe;
+                margin-right: -180px;
+                margin-top: 7px;
+            }
+
+            #cb1 {
+                width: 69px;
+                height: 71px;
+            }
+
+            #cb2 {
+                width: 370px;
+                height: 27px;
+                margin-bottom: -13px;
+                margin-left: 5px;
+            }
+
+            #cb3 {
+                width: 240px;
+                height: 27px;
+                margin-left: -2px;
+                margin-top: 14px;
+            }
+
+            #container {
+                background-color: #00cfd2;
+                height: 76px;
+                width: 617px;
+            }
+
+            #h5 {
+                font-size: 10px;
+                text-align: right;
+                margin-right: -187px;
+                margin-top: -16px;
+            }
+
+            #bing {
+                margin-left: 166px;
+                font-size: 12px;
+            }
+
+            #cing {
+                width: 125%;
+                margin-left: 42px;
+                font-size: 12px;
+            }
+
+            #r {
+                margin-left: 66px;
+                font-size: 13px;
+            }
+
+            #kkr {
+                margin-right: -92px;
+                font-size: 9px;
+                border-color: black;
+            }
+
+            h2 {
+                margin-left: 157px;
+                text-align: center;
+                color: #0000ff;
+                font-size: 14px;
+            }
+
+            #wun {
+                font-size: 13px;
+                margin-left: 11px;
+                width: 129%;
+                text-align: center;
+            }
+
+
+            #gun {
+                width: 144%;
+                font-size: 10px;
+                margin-left: 3px;
+            }
+
+            #sun {
+                padding: 3px;
+                width: 142%;
+                margin: auto;
+                font-size: 11px;
+                text-align: justify;
+            }
+
+            #cb3 {
+                width: 200px;
+                height: 25px;
+                margin-left: -2px;
+                margin-top: 1px;
+            }
+
+            #cb2 {
+                width: 307px;
+                height: 23px;
+                margin-bottom: -9px;
+                margin-left: 5px;
+            }
+
+            #lower {
+                padding: 3px;
+                font-size: 13px;
+                background-color: #C7efff;
+                padding-left: 48px;
+                padding-right: 20px;
+                width: 129%;
+            }
+          
+
+
+        }
+         @media(max-width:423px) and (min-width:402px) {
+            #exs {
+                font-size: 12px;
+                text-align: right;
+                color: #373abe;
+                margin-right: -200px;
+                margin-top: 7px;
+            }
+
+            #cb1 {
+                width: 69px;
+                height: 71px;
+            }
+
+            #cb2 {
+                width: 370px;
+                height: 27px;
+                margin-bottom: -13px;
+                margin-left: 5px;
+            }
+
+            #cb3 {
+                width: 240px;
+                height: 27px;
+                margin-left: -2px;
+                margin-top: 14px;
+            }
+
+            #container {
+                background-color: #00cfd2;
+                height: 76px;
+                width: 626px;
+            }
+
+            #h5 {
+                font-size: 10px;
+                text-align: right;
+                margin-right: -208px;
+                margin-top: -16px;
+            }
+
+            #bing {
+                margin-left: 179px;
+                font-size: 12px;
+            }
+
+            #cing {
+                width: 125%;
+                margin-left: 43px;
+                font-size: 12px;
+            }
+
+            #r {
+                margin-left: 66px;
+                font-size: 11px;
+            }
+
+            #kkr {
+                margin-right: -113px;
+                font-size: 9px;
+                border-color: black;
+            }
+
+            h2 {
+                margin-left: 185px;
+                text-align: center;
+                color: #0000ff;
+                font-size: 14px;
+            }
+
+            #wun {
+                font-size: 13px;
+                margin-left: 28px;
+                width: 129%;
+                text-align: center;
+            }
+
+
+            #gun {
+                width: 144%;
+                font-size: 10px;
+                margin-left: 13px;
+            }
+
+            #sun {
+                padding: 4px;
+                width: 150%;
+                margin: auto;
+                font-size: 11px;
+                text-align: justify;
+            }
+
+            #cb3 {
+                width: 200px;
+                height: 25px;
+                margin-left: -2px;
+                margin-top: 1px;
+            }
+
+            #cb2 {
+                width: 307px;
+                height: 23px;
+                margin-bottom: -9px;
+                margin-left: 5px;
+            }
+
+            #lower {
+                padding: 3px;
+                font-size: 14px;
+                background-color: #C7efff;
+                padding-left: 48px;
+                padding-right: 20px;
+                width: 137%;
+            }
+
+
+        }
+         @media(max-width:374px) and (min-width:354px) {
+            #exs {
+                font-size: 12px;
+                text-align: right;
+                color: #373abe;
+                margin-right: -199px;
+                margin-top: 7px;
+            }
+
+            #cb1 {
+                width: 69px;
+                height: 71px;
+            }
+
+            #cb2 {
+                width: 370px;
+                height: 27px;
+                margin-bottom: -13px;
+                margin-left: 5px;
+            }
+
+            #cb3 {
+                width: 240px;
+                height: 27px;
+                margin-left: -2px;
+                margin-top: 14px;
+            }
+
+            #container {
+                background-color: #00cfd2;
+                height: 76px;
+                width: 573px;
+            }
+
+            #h5 {
+                font-size: 10px;
+                text-align: right;
+                margin-right: -205px;
+                margin-top: -16px;
+            }
+
+            #bing {
+                margin-left: 200px;
+                font-size: 12px;
+            }
+
+            #cing {
+                width: 125%;
+                margin-left: 50px;
+                font-size: 12px;
+            }
+
+            #r {
+                margin-left: 53px;
+                font-size: 11px;
+            }
+
+            #kkr {
+                margin-right: -150px;
+                font-size: 9px;
+                border-color: black;
+            }
+
+            h2 {
+                margin-left: 204px;
+                text-align: center;
+                color: #0000ff;
+                font-size: 13px;
+            }
+
+            #wun {
+                font-size: 13px;
+                margin-left: 47px;
+                width: 129%;
+                text-align: center;
+            }
+
+
+            #gun {
+                width: 144%;
+                font-size: 10px;
+                margin-left: 23px;
+            }
+
+            #sun {
+                padding: 4px;
+                width: 156%;
+                margin: auto;
+                font-size: 11px;
+                text-align: justify;
+            }
+
+            #cb3 {
+                width: 200px;
+                height: 25px;
+                margin-left: -2px;
+                margin-top: 1px;
+            }
+
+            #cb2 {
+                width: 307px;
+                height: 23px;
+                margin-bottom: -9px;
+                margin-left: 5px;
+            }
+
+            #lower {
+                padding: 3px;
+                font-size: 14px;
+                background-color: #C7efff;
+                padding-left: 48px;
+                padding-right: 20px;
+                width: 140%;
+            }
+           
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <table>
+            <tr>
+                <td><img id="cb1" src="cbseJeeMains.png"></td>
+                <td><img id="cb3" src="cbsehindi-new.png"> <br><img id="cb2" src="cbseenglish-new.png"> </td>
+                <td></td>
+            </tr>
+            </tr>
+        </table>
+    </div>
+
+    <h5 id="exs">
+        Examination Results
+        <script>
+            let yearr;
+            yearr = parseInt(prompt("Enter year ."));
+            document.write(+yearr);
+        </script>
+
+    </h5>
+
+    <h5 id="h5">Brought to you by National Informatics Centre</h5>
+    <a href="#" id="lim">Print this Page</a>
+    <h2 id="bing">Examination Results</h2>
+    <h2 id="cing">Senior School Certificate Examination (Class XII) Results
+
+        <script>
+            let b;
+            b = parseInt(prompt("Enter year ."));
+            document.write(+b);
+        </script>
+    </h2>
+    <br>
+    <table id="r" align="center">
+        <tr>
+            <td>Roll No.</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <script>
+                    let a;
+                    a = parseInt(prompt("Enter your board roll no."));
+                    document.write(+a);
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td>Candidate's Name</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><B>
+                    <script>
+                        let c;
+                        c = (prompt("Enter your name in block letters"));
+                        document.write("" + c);
+                    </script>
+
+                </B></td>
+        </tr>
+        <tr>
+            <td>Father's Name</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <script>
+                    let d;
+                    d = (prompt("Enter your father's name in block letters"));
+                    document.write("" + d);
+                </script>
+            </td>
+        </tr>
+        <TR>
+            <td>Mother's Name</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <script>
+                    let e;
+                    e = (prompt("Enter your mother's name in block letters"));
+                    document.write("" + e);
+                </script>
+            </td>
+        </TR>
+        <tr>
+            <td>School Name's</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <script>
+                    let f;
+                    f = (prompt("Enter your school name in block letters"));
+                    document.write("" + f);
+                </script>
+            </td>
+        </tr>
+    </table>
+    <BR><BR>
+    <table id="kkr" align="center" border="3" Cellspacing="0" cellpadding="2">
+
+        <tr id="btn">
+            <th align="center">SUB CODE</th>
+            <Th align="left">SUB NAME</Th>
+            <Th align="left">THEORY</Th>
+            <Th align="left">PRACTICAL</Th>
+            <Th align="left">MARKS</Th>
+            <Th align="center">POSITIONAL GRADE</Th>
+        </tr>
+        <tr>
+            <td>
+                <script>
+                    let g;
+                    g = parseInt(prompt("Enter your 1st subject code."));
+                    document.write(+g);
+                </script>
+
+            </td>
+            <td>
+                <script>
+                    let h;
+                    h = (prompt("Enter your 1st subject name."));
+                    document.write("" + h)
+                </script>
+            </td>
+            <TD>
+                <script>
+                    var i;
+                    i = parseInt(prompt("Enter your 1st subject theory marks."));
+                    document.write("0" + i);
+                </script>
+            </TD>
+            <Td>
+                <script>
+                    var k;
+                    k = parseInt(prompt("Enter your 1st subject practical marks."));
+                    document.write("0" + k);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let l;
+                    l = parseInt(prompt("Enter your 1st subject total marks (theory + practical)."));
+                    document.write("0" + l);
+                </script>
+            </TD>
+            <TD>B1</TD>
+        </tr>
+        <TR id="csk">
+            <TD>
+                <script>
+                    let m;
+                    m = parseInt(prompt("Enter your 2nd subject code."));
+                    document.write(+m);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let lo;
+                    lo = (prompt("Enter your 2nd subject name."));
+                    document.write("" + lo)
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var io;
+                    io = parseInt(prompt("Enter your 2nd subject theory marks."));
+                    document.write("0" + io);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var iy;
+                    iy = parseInt(prompt("Enter your 2nd subject Practical marks."));
+                    document.write("0" + iy);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let lh;
+                    lh = parseInt(prompt("Enter your 2nd subject total marks (theory + practical)."));
+                    document.write("0" + lh);
+                </script>
+            </TD>
+            <TD>C1</TD>
+        </TR>
+        <TR>
+            <TD>
+                <script>
+                    let go;
+                    go = parseInt(prompt("Enter your 3rd subject code."));
+                    document.write(+go);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let lxt;
+                    lxt = (prompt("Enter your 3rd subject name."));
+                    document.write("" + lxt);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var ib;
+                    ib = parseInt(prompt("Enter your 3rd subject theory marks."));
+                    document.write("0" + ib);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var ix;
+                    ix = parseInt(prompt("Enter your 3rd subject Practical marks."));
+                    document.write("0" + ix);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let lt;
+                    lt = parseInt(prompt("Enter your 3rd subject total marks (theory + practical)."));
+                    document.write("0" + lt);
+                </script>
+            </TD>
+            <TD>B2</TD>
+        </TR>
+        <TR id="csk">
+            <TD>
+                <script>
+                    let gb;
+                    gb = parseInt(prompt("Enter your 4th subject code."));
+                    document.write(+gb);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let lio;
+                    lio = (prompt("Enter your 4th subject name."));
+                    document.write("" + lio);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var ic;
+                    ic = parseInt(prompt("Enter your 4th subject theory marks."));
+                    document.write("0" + ic);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var iu;
+                    iu = parseInt(prompt("Enter your 4th subject Practical marks."));
+                    document.write("0" + iu);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let lx;
+                    lx = parseInt(prompt("Enter your 4th subject total marks (theory + practical)."));
+                    document.write("0" + lx);
+                </script>
+            </TD>
+            <TD>C1</TD>
+        </TR>
+        <TR>
+            <TD>
+                <script>
+                    let gc;
+                    gc = parseInt(prompt("Enter your 5th subject code."));
+                    document.write(+gc);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let lfo;
+                    lfo = (prompt("Enter your 5th subject name."));
+                    document.write("" + lfo);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var id;
+                    id = parseInt(prompt("Enter your 5th subject theory marks."));
+                    document.write("0" + id);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    var ib;
+                    ib = parseInt(prompt("Enter your 5th subject Practical marks."));
+                    document.write("0" + ib);
+                </script>
+            </TD>
+            <TD>
+                <script>
+                    let ly;
+                    ly = parseInt(prompt("Enter your 5th subject total marks (theory + practical)."));
+                    document.write("0" + ly);
+                </script>&nbsp;P
+            </TD>
+            <TD>B2</TD>
+        </TR>
+        <TR>
+            <TD>
+                500
+            </TD>
+            <TD>WORK EXPERIENCE</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>&ndash;</TD>
+            <TD>A1</TD>
+        </TR>
+        <TR>
+            <TD>
+                502
+            </TD>
+            <TD>HEALTH & PHYSICAL EDUCATION</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>&ndash;</TD>
+            <TD>A1</TD>
+        </TR>
+        <TR id="csk">
+            <TD>
+                503
+            </TD>
+            <TD>GENERAL STUDIES</TD>
+            <TD></TD>
+            <TD></TD>
+            <TD>&ndash;</TD>
+            <TD>A1</TD>
+        </TR>
+        <TR id="btn ">
+            <TD></TD>
+            <TD colspan="5">Result&nbsp;:&nbsp;Pass</TD>
+        </TR>
+
+    </table>
+    <a href="#">
+        <h2 align="center">Check Another Result&nbsp;:</h2>
+    </a>
+
+    <h4 id="wun" align="center">Note&nbsp;:&nbsp;Abbreviations used against Result :</h4>
+    <p id="gun" align="center">N.E- Not Eligible, R.W.- Result Withheld, R.L.-Result Later, ABST- Absent, COMP-
+        Compartment,
+        UFM-Unfairmeans, XXXX- Improvement, SJD- Subjadice, N.R.- Not Registered</p>
+    <br>
+    <p id="sun"><b>Disclaimer&nbsp;:</b>&nbsp;Neither NIC Nor CBSE isresponsible for any inadvertent error that may have
+        crept in the results being published on NET. The results published on net are for Immediate information to
+        the examinees. These cannot be treated as original mark sheets. Original mark sheets have been issued by the
+        Board separately.</p>
+    <footer>
+        <h3 id="lower" class="groove" align="center">Designed, Developed and Hosted by National Informatics Centre
+        </h3>
+    </footer>
+</body>
+
+</html>
