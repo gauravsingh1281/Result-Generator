@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Generator</title>
+    <link rel="icon" type="image/x-icon" href="cbseJeeMains.png">
+    <link rel="stylesheet" href="real.css">
+</head>
+
+<body>
+
+    <!-- header section -->
+    <div id="main">
+    <hearder>
+        <div id="container">
+            <table>
+                <tr>
+                    <td><a href="index.html"> <img id="head-img1" src="cbseJeeMains.png"></a></td>
+                    <td><img id="head-img3" src="cbsehindi-new.png"> <br><img id="head-img2" src="cbseenglish-new.png"> </td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </div>
+    </hearder>
+
+    <!-- subheading section -->
+
+    <section id="subhead">
+        <h5 id="exam-session">
+            Examination Results
+            <script>
+                let yearr;
+                yearr = parseInt(prompt("Enter year ."));
+                document.write(+yearr);
+            </script>
+
+        </h5>
+
+        <h5 id="h5">Brought to you by National Informatics Centre</h5>
+    </section>
+    <div id="print">
+        <a href="#">Print this Page</a>
+    </div>
+    <div id="infohead">
+        <h2>Examination Results</h2>
+        <h2>Senior School Certificate Examination (Class XII) Results
+
+            <script>
+                let b;
+                b = parseInt(prompt("Enter year ."));
+                document.write(+b);
+            </script>
+        </h2>
+    </div>
+    <br>
+
+    <div id="userdata">
+
+        <div class="leftdata">
+            <article>
+                <p>Roll No.</p>
+            </article>
+            <article>
+                <p>Candidate's Name</p>
+            </article>
+            <article>
+                <p>Father's Name</p>
+            </article>
+            <article>
+                <p>Mother's Name</p>
+            </article>
+            <article>
+                <p>School's Name</p>
+            </article>
+        </div>
+
+        <div class="rightdata">
+            <article>
+                <p>
+                    <script>
+                        let a;
+                        a = parseInt(prompt("Enter your board roll no."));
+                        document.write(+a);
+                    </script>
+                </p>
+
+            </article>
+            <article>
+
+                <p>
+                <script>
+                    let c;
+                    c = (prompt("Enter your name."));
+                    uo = c.toUpperCase();
+                    document.write("" + uo);
+                </script>
+                </p>
+            </article>
+            <article>
+                <p><script>
+                    let d;
+                    d = (prompt("Enter your father's name."));
+                    doh = d.toUpperCase();
+                    document.write("" + doh);
+                </script></p>
+            </article>
+            <article>
+                <p><script>
+                    let e;
+                    e = (prompt("Enter your mother's name."));
+                    eo = e.toUpperCase();
+                    document.write("" + eo);
+                </script></p>
+            </article>
+
+            <article>
+                <p> <script>
+                    let f;
+                    f = (prompt("Enter your school name."));
+                    fo = f.toUpperCase();
+                    document.write("" + fo);
+                </script></p>
+            </article>
+
+        </div>
+    </div>
+    <br>
+        <div id="tabledata">
+        <table id="table" align="center" border="1" Cellspacing="0" cellpadding="2">
+
+            <tr id="table-head">
+                <th style="text-align: center;">SUB CODE</th>
+                <Th style="text-align: left;">SUB NAME</Th>
+                <Th style="text-align: left;">THEORY</Th>
+                <Th style="text-align: left;">PRACTICAL</Th>
+                <Th style="text-align: left;">MARKS</Th>
+                <Th style="text-align: center;">POSITIONAL GRADE</Th>
+            </tr>
+            <tr>
+                <td>
+                    <script>
+                        let g;
+                        g = parseInt(prompt("Enter your 1st subject code."));
+                        document.write(+g);
+                    </script>
+    
+                </td>
+                <td>
+                    <script>
+                        let h;
+                        h = (prompt("Enter your 1st subject name."));
+                        ho = h.toUpperCase();
+                        document.write("" + ho)
+                    </script>
+                </td>
+                <TD>
+                    <script>
+                        var i;
+                        i = parseInt(prompt("Enter your 1st subject theory marks."));
+                        document.write("0" + i);
+                    </script>
+                </TD>
+                <Td>
+                    <script>
+                        var k;
+                        k = parseInt(prompt("Enter your 1st subject practical marks."));
+                        document.write("0" + k);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let l;
+                        l = parseInt(prompt("Enter your 1st subject total marks (theory + practical)."));
+                        document.write("0" + l);
+                    </script>
+                </TD>
+                <TD>B1</TD>
+            </tr>
+            <TR id="table-row">
+                <TD>
+                    <script>
+                        let m;
+                        m = parseInt(prompt("Enter your 2nd subject code."));
+                        document.write(+m);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let lo;
+                        lo = (prompt("Enter your 2nd subject name."));
+                        ko = lo.toUpperCase();
+                        document.write("" + ko);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var io;
+                        io = parseInt(prompt("Enter your 2nd subject theory marks."));
+                        document.write("0" + io);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var iy;
+                        iy = parseInt(prompt("Enter your 2nd subject Practical marks."));
+                        document.write("0" + iy);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let lh;
+                        lh = parseInt(prompt("Enter your 2nd subject total marks (theory + practical)."));
+                        document.write("0" + lh);
+                    </script>
+                </TD>
+                <TD>C1</TD>
+            </TR>
+            <TR>
+                <TD>
+                    <script>
+                        let go;
+                        go = parseInt(prompt("Enter your 3rd subject code."));
+                        document.write(+go);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let lxt;
+                        lxt = (prompt("Enter your 3rd subject name."));
+                        xo = lxt.toUpperCase();
+                        document.write("" + xo);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var ib;
+                        ib = parseInt(prompt("Enter your 3rd subject theory marks."));
+                        document.write("0" + ib);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var ix;
+                        ix = parseInt(prompt("Enter your 3rd subject Practical marks."));
+                        document.write("0" + ix);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let lt;
+                        lt = parseInt(prompt("Enter your 3rd subject total marks (theory + practical)."));
+                        document.write("0" + lt);
+                    </script>
+                </TD>
+                <TD>B2</TD>
+            </TR>
+            <TR id="table-row">
+                <TD>
+                    <script>
+                        let gb;
+                        gb = parseInt(prompt("Enter your 4th subject code."));
+                        document.write(+gb);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let lio;
+                        lio = (prompt("Enter your 4th subject name."));
+                        vo = lio.toUpperCase();
+                        document.write("" + vo);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var ic;
+                        ic = parseInt(prompt("Enter your 4th subject theory marks."));
+                        document.write("0" + ic);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var iu;
+                        iu = parseInt(prompt("Enter your 4th subject Practical marks."));
+                        document.write("0" + iu);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let lx;
+                        lx = parseInt(prompt("Enter your 4th subject total marks (theory + practical)."));
+                        document.write("0" + lx);
+                    </script>
+                </TD>
+                <TD>C1</TD>
+            </TR>
+            <TR>
+                <TD>
+                    <script>
+                        let gc;
+                        gc = parseInt(prompt("Enter your 5th subject code."));
+                        document.write(+gc);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let lfo;
+                        lfo = (prompt("Enter your 5th subject name."));
+                        ujo = lfo.toUpperCase();
+                        document.write("" + ujo);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var id;
+                        id = parseInt(prompt("Enter your 5th subject theory marks."));
+                        document.write("0" + id);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        var ib;
+                        ib = parseInt(prompt("Enter your 5th subject Practical marks."));
+                        document.write("0" + ib);
+                    </script>
+                </TD>
+                <TD>
+                    <script>
+                        let ly;
+                        ly = parseInt(prompt("Enter your 5th subject total marks (theory + practical)."));
+                        document.write("0" + ly);
+                    </script>&nbsp;P
+                </TD>
+                <TD>B2</TD>
+            </TR>
+            <TR>
+                <TD>
+                    500
+                </TD>
+                <TD>WORK EXPERIENCE</TD>
+                <TD></TD>
+                <TD></TD>
+                <TD>&ndash;</TD>
+                <TD>A1</TD>
+            </TR>
+            <TR>
+                <TD>
+                    502
+                </TD>
+                <TD>HEALTH & PHYSICAL EDUCATION</TD>
+                <TD></TD>
+                <TD></TD>
+                <TD>&ndash;</TD>
+                <TD>A1</TD>
+            </TR>
+            <TR id="table-row">
+                <TD>
+                    503
+                </TD>
+                <TD>GENERAL STUDIES</TD>
+                <TD></TD>
+                <TD></TD>
+                <TD>&ndash;</TD>
+                <TD>A1</TD>
+            </TR>
+            <TR id="table-head">
+                <TD></TD>
+                <TD colspan="5">Result&nbsp;:&nbsp;Pass</TD>
+            </TR>
+    
+        </table>
+        </div>
+    <a href="index.html">
+        <h2>Check Another Result&nbsp;:</h2>
+    </a>
+
+    <h4 id="note" >Note&nbsp;:&nbsp;Abbreviations used against Result :</h4>
+    <p id="note-data" >N.E- Not Eligible, R.W.- Result Withheld, R.L.-Result Later, ABST- Absent, COMP-
+        Compartment,
+        UFM-Unfairmeans, XXXX- Improvement, SJD- Subjadice, N.R.- Not Registered</p>
+    <br>
+    <p id="disclaimer"><b>Disclaimer&nbsp;:</b>&nbsp;Neither NIC Nor CBSE is responsible for any inadvertent error that may
+        have
+        crept in the results being published on NET. The results published on net are for Immediate information to
+        the examinees. These cannot be treated as original mark sheets. Original mark sheets have been issued by the
+        Board separately.</p>
+    <footer>
+        <h3 id="footer" >Designed, Developed and Hosted by National Informatics Centre
+        </h3>
+    </footer>
+    </div>
+</body>
+
+</html>
