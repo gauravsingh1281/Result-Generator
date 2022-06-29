@@ -6,7 +6,7 @@ body {
 
 #infohead{
     text-align: center;
-    color: #0000ff;
+    color: #3333CC;
     font-size: 1.5vw;
 }
 
@@ -22,11 +22,11 @@ body {
 
 
 #table-row {
-    background-color: #E5E1FF;
+    background-color: rgb(230, 230, 250);
 }
 
 #footer {
-    background-color: #C7efff;
+    background-color: rgb(194, 219, 248);
     font-size: 2.5vw;
     height: 3vw;
     text-align: center;
@@ -42,7 +42,7 @@ body {
 }
 
 #table-head{
-    background-color: blue;
+    background-color: rgb(0, 0, 205);
     color: white;
 }
 
@@ -77,7 +77,7 @@ body {
 
 #exam-session{
     font-size: 1.9vw;
-    color: #373abe;
+    color: #3333CC;
 
 }
 #subhead{
@@ -114,6 +114,7 @@ body {
 a h2{
     font-size: 2.5vw;
     text-align: center;
+    color: #3333CC;
 }
 
 #note{
