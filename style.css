@@ -182,7 +182,7 @@ a h2{
     
       #userdata {
     display: flex;
-    max-width: 83vw;
+    max-width: 84vw;
     margin: auto;
     background-color: #FFFF;
     height: 22vw;
@@ -230,6 +230,12 @@ a h2{
     text-align: center;
     padding: 2px;
     border-style: groove;
+}
+    #table {
+    border: 1.4px solid black;
+    width: 84%;
+    background-color: #ffff;
+    font-size: 1.5vw;
 }
     
 }
